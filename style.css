@@ -1,0 +1,36 @@
+/* style.css */
+body {
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/* Mejoras visuales en las tablas de datos */
+.data-table-container table {
+    font-size: 0.9em;
+    border-radius: 8px;
+    overflow: hidden; /* Asegura que el border-radius se aplique a los bordes de la tabla */
+}
+
+.data-table-container th {
+    background-color: #e9ecef;
+    font-weight: 600;
+}
+
+.data-table-container th:first-child, 
+.data-table-container td:first-child { 
+    font-weight: bold; 
+}
+
+/* Estilo para las tarjetas de estadísticas */
+.card-header {
+    font-size: 1.1em;
+}
+
+/* Contenedor del gráfico */
+#dailyStepsChart {
+    max-height: 450px;
+}
